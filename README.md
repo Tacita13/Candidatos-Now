@@ -1,2 +1,3 @@
-# Candidatos-Now
-A web page developed in a Hackathon with the purpose of keeping up to date information on political candidates in Puerto Rico
+# candidatos-now
+
+App that filters and shows a dashboard containing social media content from various candidates of the 2016 election . Content will be divided by topics ranging from economic development, education, heathcare, etc. 
