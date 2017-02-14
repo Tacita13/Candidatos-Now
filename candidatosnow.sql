@@ -40,7 +40,8 @@ CREATE TABLE `candidates` (
 
 LOCK TABLES `candidates` WRITE;
 /*!40000 ALTER TABLE `candidates` DISABLE KEYS */;
-INSERT INTO `candidates` VALUES (1,'Albert','Maldonado','Sanchez','pip','gobernador','https://scontent-dfw1-1.xx.fbcdn.net/v/t1.0-9/10628110_10154422032389008_6764946829910675936_n.jpg?oh=1134a0cad508183675682609826d92c9&oe=57D1A7C2');
+INSERT INTO `candidates` VALUES (1,'Albert','Maldonado','Sanchez','pip','gobernador',
+'https://scontent-dfw1-1.xx.fbcdn.net/v/t1.0-9/10628110_10154422032389008_6764946829910675936_n.jpg?oh=1134a0cad508183675682609826d92c9&oe=57D1A7C2');
 /*!40000 ALTER TABLE `candidates` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -71,7 +72,20 @@ CREATE TABLE `tweets` (
 
 LOCK TABLES `tweets` WRITE;
 /*!40000 ALTER TABLE `tweets` DISABLE KEYS */;
-INSERT INTO `tweets` VALUES (1,' Yo respeto la decisión de cada cual de hacer lo que ellos así deseen, lo que no podemos permitir es que ese tipo de intromisión se le meta al hogar del puertorriqueño, que no sea una directriz del Estado.',NULL,NULL,'','',NULL,NULL,NULL),(2,'Los vaivenes políticos han causado que la definición y proyección internacional de Puerto Rico como producto turístico, cambie drásticamente, conforme a la visión particular de cada administración de turno. El turismo de nuestra patria no puede mercadearse como un premio político. No podemos continuar aceptando que la política paralice las estrategias y promociones turísticas. Puerto Rico necesita profesionalizar el turismo. Este modelo nos permite hacer eso, dándole continuidad y solidez a los planes de desarrollo para la industria.',NULL,NULL,'','',NULL,NULL,NULL),(3,'Los vaivenes políticos han causado que la definición y proyección internacional de Puerto Rico como producto turístico, cambie drásticamente, conforme a la visión particular de cada administración de turno. El turismo de nuestra patria no puede mercadearse como un premio político. No podemos continuar aceptando que la política paralice las estrategias y promociones turísticas. Puerto Rico necesita profesionalizar el turismo. Este modelo nos permite hacer eso, dándole continuidad y solidez a los planes de desarrollo para la industria.',NULL,NULL,'','',NULL,NULL,NULL);
+INSERT INTO `tweets` VALUES (1,' Yo respeto la decisión de cada cual de hacer lo que ellos así deseen,
+    lo que no podemos permitir es que ese tipo de intromisión se le meta al hogar del puertorriqueño,
+    que no sea una directriz del Estado.',NULL,NULL,'','',NULL,NULL,NULL),(2,'Los vaivenes políticos han
+    causado que la definición y proyección internacional de Puerto Rico como producto turístico, cambie
+    drásticamente, conforme a la visión particular de cada administración de turno. El turismo de nuestra
+    patria no puede mercadearse como un premio político. No podemos continuar aceptando que la política 
+    paralice las estrategias y promociones turísticas. Puerto Rico necesita profesionalizar el turismo.
+    Este modelo nos permite hacer eso, dándole continuidad y solidez a los planes de desarrollo para la
+    industria.',NULL,NULL,'','',NULL,NULL,NULL),(3,'Los vaivenes políticos han causado que la definición
+    y proyección internacional de Puerto Rico como producto turístico, cambie drásticamente, conforme a la
+    visión particular de cada administración de turno. El turismo de nuestra patria no puede mercadearse
+    como un premio político. No podemos continuar aceptando que la política paralice las estrategias y
+    promociones turísticas. Puerto Rico necesita profesionalizar el turismo. Este modelo nos permite hacer
+    eso, dándole continuidad y solidez a los planes de desarrollo para la industria.',NULL,NULL,'','',NULL,NULL,NULL);
 /*!40000 ALTER TABLE `tweets` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
